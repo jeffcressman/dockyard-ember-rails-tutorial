@@ -23,9 +23,11 @@ I added `import Ember from "ember";` to my `landing-page-test.js` file. Adding `
 
 ### ToDo
 
-Add grunt ES6 transpiler task so that we can see what our code looks like in ES5 as well.
+1. Add grunt ES6 transpiler task so that we can see what our code looks like in ES5 as well.
 
 see <https://www.npmjs.org/package/grunt-es6-transpiler>
+
+2. Change app name from `dockyardemberrails` to `adelaideember`.
 
 
 
