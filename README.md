@@ -1,4 +1,4 @@
-Ember Dockyard Tutorial
+Dockyard Ember Rails Tutorial
 =======================
 
 The tutorial backing this repository can be found here:
