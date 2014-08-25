@@ -21,6 +21,28 @@ Fixes [here](http://stackoverflow.com/questions/24312362/ember-cli-fix-for-ember
 
 I added `import Ember from "ember";` to my `landing-page-test.js` file. Adding `Ember: true` to `.jshintrc` didn't work.
 
+### Run
+
+Without rails
+
+```bash
+$ cd ember
+$ ember server
+```
+with rails
+
+```bash
+$ cd ember
+$ ember server --proxy http://localhost:3000
+$ cd rails // in another terminal window
+$ rails server -p 3000
+$ postgres -D /usr/local/var/postgres // in another terminal window
+```
+
+Tests are here
+
+<http://localhost:4200/tests>
+
 ### ToDo
 
 1. Add grunt ES6 transpiler task so that we can see what our code looks like in ES5 as well.
